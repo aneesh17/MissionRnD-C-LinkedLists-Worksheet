@@ -46,7 +46,7 @@ namespace spec
 		{
 			int num = 0;
 			struct node *head = NULL;
-			int num_array[100] = {0,0,0,1,1,1,2,2,2,2};
+			int num_array[100] = { 0, 0, 0, 1, 1, 1, 2, 2, 2, 2 };
 			int output[100] = { 0, 0, 0, 1, 1, 1, 2, 2, 2, 2 };
 			int len = 10;
 			int i = 0;
@@ -94,8 +94,8 @@ namespace spec
 		{
 			int num = 0;
 			struct node *head = NULL;
-			int num_array[100] = {1,2,1,1,1,2,2,0,0,0,2,1};
-			int output[100] = { 0, 0, 0,1,1,1,1,1,2,2,2,2};
+			int num_array[100] = { 1, 2, 1, 1, 1, 2, 2, 0, 0, 0, 2, 1 };
+			int output[100] = { 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2 };
 			int len = 12;
 			int i = 0;
 			for (i = 0; i<len; i++)
